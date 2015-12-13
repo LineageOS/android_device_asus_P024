@@ -1,0 +1,2 @@
+# Sensors
+type sysfs_devices_sensors, sysfs_type;
