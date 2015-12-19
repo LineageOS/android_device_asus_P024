@@ -10,14 +10,6 @@
 
 
 # Sensors
-/dev/input/event2                                           u:object_r:sensors_device:s0
-/dev/input/event3                                           u:object_r:sensors_device:s0
-/dev/input/event4                                           u:object_r:sensors_device:s0
-/dev/input/event5                                           u:object_r:sensors_device:s0
-/dev/input/event6                                           u:object_r:sensors_device:s0
-/dev/input/event7                                           u:object_r:sensors_device:s0
-/dev/input/event8                                           u:object_r:sensors_device:s0
-/dev/input/event9                                           u:object_r:sensors_device:s0
 /data/misc/sensor(/.*)?                                     u:object_r:sensors_data_file:s0
 /sys/devices/virtual/input/input2(/.*)?                     u:object_r:sysfs_devices_sensors:s0
 /sys/devices/virtual/input/input3(/.*)?                     u:object_r:sysfs_devices_sensors:s0
