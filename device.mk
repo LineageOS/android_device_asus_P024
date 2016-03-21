@@ -28,7 +28,6 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # TWRP
 PRODUCT_COPY_FILES += \
-    device/asus/P024/twrp.fstab:recovery/root/etc/twrp.fstab \
-    device/asus/P024/dt.img:dt.img
+    device/asus/P024/twrp.fstab:recovery/root/etc/twrp.fstab
 
 $(call inherit-product, build/target/product/full.mk)
