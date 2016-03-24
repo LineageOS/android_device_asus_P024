@@ -1,0 +1,9 @@
+[
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },{
+    "repository": "android_kernel_asus_P024",
+    "target_path": "kernel/asus/P024"
+  }
+]
