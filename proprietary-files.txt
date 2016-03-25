@@ -1,11 +1,11 @@
 # Signed Venus (media) firmware
-etc/firmware/venus.b00
-etc/firmware/venus.b01
-etc/firmware/venus.b02
-etc/firmware/venus.b03
-etc/firmware/venus.b04
-etc/firmware/venus.mbn
-etc/firmware/venus.mdt
+etc/firmware/venus_8916.b00
+etc/firmware/venus_8916.b01
+etc/firmware/venus_8916.b02
+etc/firmware/venus_8916.b03
+etc/firmware/venus_8916.b04
+etc/firmware/venus_8916.mbn
+etc/firmware/venus_8916.mdt
 
 # ADSP
 bin/adsprpcd
@@ -176,15 +176,15 @@ bin/time_daemon
 vendor/lib/libTimeService.so
 
 # WLAN
-etc/firmware/wcnss.b00
-etc/firmware/wcnss.b01
-etc/firmware/wcnss.b02
-etc/firmware/wcnss.b04
-etc/firmware/wcnss.b06
-etc/firmware/wcnss.b09
-etc/firmware/wcnss.b10
-etc/firmware/wcnss.b11
-etc/firmware/wcnss.mdt
+etc/firmware/wcnss_8916.b00
+etc/firmware/wcnss_8916.b01
+etc/firmware/wcnss_8916.b02
+etc/firmware/wcnss_8916.b04
+etc/firmware/wcnss_8916.b06
+etc/firmware/wcnss_8916.b09
+etc/firmware/wcnss_8916.b10
+etc/firmware/wcnss_8916.b11
+etc/firmware/wcnss_8916.mdt
 lib/libwcnss_qmi.so
 -lib/libwpa_qmi_eap_proxy.so
 
