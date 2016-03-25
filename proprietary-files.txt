@@ -143,12 +143,14 @@ bin/qmuxd
 bin/radish
 bin/rfs_access
 bin/rmt_storage
+bin/rild
 etc/permissions/com.qrd.wappush.xml
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 -framework/com.qrd.wappush.jar
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
+lib/libril.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
 -vendor/lib/libmdmdetect.so
