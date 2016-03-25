@@ -97,8 +97,8 @@ PRODUCT_PACKAGES += \\
 PRODUCT_PACKAGES += \\
     libtime_genoff
 
-PRODUCT_PACKAGES += \\
-    libwpa_qmi_eap_proxy
+#PRODUCT_PACKAGES += \\
+#    libwpa_qmi_eap_proxy
 
 \$(call inherit-product, vendor/$VENDOR/$DEVICE/$DEVICE-vendor-blobs.mk)
 EOF
