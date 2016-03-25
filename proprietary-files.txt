@@ -187,3 +187,10 @@ etc/firmware/wcnss.b11
 etc/firmware/wcnss.mdt
 lib/libwcnss_qmi.so
 -lib/libwpa_qmi_eap_proxy.so
+
+# Firmware
+etc/firmware/ice40.bin
+etc/firmware/leia_pfp_470.fw
+etc/firmware/leia_pm4_470.fw
+etc/firmware/sensord_cfg_axis.txt
+etc/firmware/touch_fw_0x550D.ekt
