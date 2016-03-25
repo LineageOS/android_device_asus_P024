@@ -18,7 +18,7 @@ persist.radio.rat_on=combine
 ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 # Start in cdma mode
-ro.telephony.default_network=5
+ro.telephony.default_network=9
 
 debug.sf.hw=1
 debug.egl.hw=1
@@ -107,3 +107,7 @@ audio.offload.gapless.enabled=true
 
 # set lcd density
 ro.sf.lcd_density=240
+
+# WiFi
+ro.disableWifiApFirmwareReload=true
+wifi.interface=wlan0
