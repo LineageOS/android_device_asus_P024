@@ -193,7 +193,8 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libxml2
+    libxml2 \
+    libril_shim
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
