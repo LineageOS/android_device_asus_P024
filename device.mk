@@ -98,10 +98,8 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 # Camera
-#PRODUCT_PACKAGES += \
-#    camera.msm8916 \
-#    libmm-qcamera \
-#    Snap
+PRODUCT_PACKAGES += \
+    Snap
 
 # Connectivity Engine support
 PRODUCT_PACKAGES += \
