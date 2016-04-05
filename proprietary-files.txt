@@ -30,6 +30,8 @@ bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 
 # Camera
+bin/mm-qcamera-daemon
+lib/libqomx_core.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmipl.so
