@@ -245,7 +245,7 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">false</bool>
 
-    <integer name="config_deviceHardwareKeys">0</integer>
+    <integer name="config_deviceHardwareKeys">65</integer>
 
     <bool name="config_allowAllRotations">true</bool>
 
