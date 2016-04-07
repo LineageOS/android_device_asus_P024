@@ -249,4 +249,7 @@
         <item>40</item>
     </integer-array>
 
+    <!-- Our modem doesn't support this query yet -->
+    <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|HSPAP|GSM|WCDMA|LTE</string>
+
 </resources>
