@@ -29,7 +29,7 @@ bmc ?= bmc150
 bmi ?=
 
 # ndof, m4g, compass, imu, accel_only
-usecase ?= ndof
+usecase ?= compass
 
 #======================================
 # sensor feature configurations
