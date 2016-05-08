@@ -282,6 +282,18 @@ on boot
     #Sig motion sensor
     chown system system /sys/class/sig_sensor/g_sensor/en_sig_motion
     chmod 0660 /sys/class/sig_sensor/g_sensor/en_sig_motion
+    # Graphics node permissions
+    chmod 0664 /sys/class/graphics/fb0/dyn_pu
+    chmod 0664 /sys/class/graphics/fb0/dynamic_fps
+    chmod 0664 /sys/class/graphics/fb0/idle_time
+    chmod 0664 /sys/class/graphics/fb0/mode
+    chmod 0664 /sys/class/graphics/fb0/modes
+
+    chown system graphics /sys/class/graphics/fb0/dyn_pu
+    chown system graphics /sys/class/graphics/fb0/dynamic_fps
+    chown system graphics /sys/class/graphics/fb0/idle_time
+    chown system graphics /sys/class/graphics/fb0/mode
+    chown system graphics /sys/class/graphics/fb0/modes
 
 on property:init.svc.wpa_supplicant=stopped
     stop dhcpcd
