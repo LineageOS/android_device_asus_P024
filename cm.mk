@@ -3,9 +3,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/P024/device.mk)
 
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
-ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
-
 # Boot animation
 TARGET_SCREEN_WIDTH := 800
 TARGET_SCREEN_HEIGHT := 1280
