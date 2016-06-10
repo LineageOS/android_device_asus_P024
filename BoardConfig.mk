@@ -22,7 +22,6 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -35,9 +34,6 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a53
-
-# CPU
-TARGET_CPU_CORTEX_A53 := true
 
 # Kernel
 BOARD_DTBTOOL_ARGS := -2
