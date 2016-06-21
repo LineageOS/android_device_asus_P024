@@ -5,8 +5,5 @@
   },{
     "repository": "android_kernel_asus_P024",
     "target_path": "kernel/asus/P024"
-  },{
-    "repository": "android_external_sony_boringssl-compat",
-    "target_path": "external/sony/boringssl-compat"
   }
 ]

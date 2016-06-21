@@ -45,7 +45,6 @@ lib/libarcsoftHDR.so
 lib/libarcsoftNightHawk.so
 lib/libarcsoftStabilizer.so
 lib/libarcsoft_panorama_burstcapture.so
-lib/libarcsoft_sensorndk.so
 lib/libmm-omxcore.so
 lib/libmm-qcamera.so
 lib/libmmcamera_interface.so
@@ -54,6 +53,10 @@ lib/libmorpho_panorama_gp.so
 lib/libsphere3.so
 lib/libxditk_AT.so
 lib/libxditk_ISP.so
+lib/libarcsoft_beautyshot.so
+lib/libcameraap.so
+lib/DataSet/ISP/libxditk_isp_1.bin
+lib/DataSet/ISP/libxditk_isp_0.bin
 vendor/etc/style.cng
 vendor/lib/hw/camera.msm8916.so
 vendor/lib/libactuator_a3907.so
@@ -89,7 +92,6 @@ vendor/lib/libactuator_ov8825_camera.so
 vendor/lib/libactuator_rohm_bu64243gwz.so
 vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so
 vendor/lib/libactuator_rohm_bu64243gwz_camera.so
-vendor/lib/libcameraap.so
 vendor/lib/libchromatix_S5K4E1_13P1BA_common.so
 vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so
 vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so
@@ -338,12 +340,14 @@ vendor/lib/libmmcamera_t4k35.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_truly_cm7700_eeprom.so
-vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_wavelet_lib.so
 vendor/lib/libxditk_DIT_MSM8916.so
 vendor/lib/libxditk_DIT_Qualcomm.so
 vendor/lib/libxditk_Network.so
 vendor/lib/libxditk_mmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libts_detected_face_hal.so
+vendor/lib/libts_face_beautify_hal.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -480,7 +484,6 @@ vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsystem_health_mon.so
 vendor/lib/libxml.so
--vendor/lib/libmdmdetect.so
 
 # Thermal
 vendor/bin/thermal-engine

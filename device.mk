@@ -100,8 +100,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
-    libboringssl-compat
+    Snap
 
 # Connectivity Engine support
 PRODUCT_PACKAGES += \
