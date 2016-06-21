@@ -506,7 +506,6 @@ etc/firmware/wcnss_8916.b09
 etc/firmware/wcnss_8916.b10
 etc/firmware/wcnss_8916.b11
 etc/firmware/wcnss_8916.mdt
-lib/libwcnss_qmi.so
 -lib/libwpa_qmi_eap_proxy.so
 
 # Firmware
