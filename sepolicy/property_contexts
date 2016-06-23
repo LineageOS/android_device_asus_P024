@@ -1,1 +1,2 @@
 qualcomm.bt.                     u:object_r:bluetooth_prop:s0
+sys.camera.opened.set            u:object_r:camera_prop:s0
