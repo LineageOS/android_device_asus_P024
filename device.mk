@@ -94,10 +94,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
