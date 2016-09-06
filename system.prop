@@ -80,6 +80,9 @@ persist.radio.custom_ecc=1
 persist.radio.ecc_hard_1=998
 persist.radio.ecc_hard_count=1
 
+# Storage
+ro.sys.sdcardfs=true
+
 # Time
 persist.timed.enable=true
 
