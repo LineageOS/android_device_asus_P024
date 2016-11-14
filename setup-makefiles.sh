@@ -49,6 +49,8 @@ done
 (cat << EOF) >> $MAKEFILE
 EOF
 
+printf '\n%s\n' "\$(call inherit-product, vendor/qcom/binaries/msm8916/graphics/graphics-vendor.mk)" >> "$MAKEFILE"
+
 (cat << EOF) > ../../../$OUTDIR/$DEVICE-vendor.mk
 # Copyright (C) 2015 The CyanogenMod Project
 #
