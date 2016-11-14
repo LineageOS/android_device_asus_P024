@@ -51,6 +51,8 @@ mm.enable.smoothstreaming=true
 mm.disable.sec_smoothstreaming=true
 media.aac_51_output_enabled=true
 drm.service.enabled=1
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
 
 # NITZ
 persist.rild.nitz_plmn=
