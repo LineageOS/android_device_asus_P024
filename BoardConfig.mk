@@ -109,9 +109,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8916
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
-# Malloc
-MALLOC_IMPL := dlmalloc
-
 # Partitions
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
