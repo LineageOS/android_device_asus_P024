@@ -29,6 +29,7 @@ persist.audio.calfile6=/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # Bluetooth
 ro.qualcomm.bt.hci_transport=smd
+qcom.bluetooth.soc=smd
 
 # Display
 debug.composition.type=c2d
