@@ -1,3 +1,13 @@
- allow mm-qcamerad camera_data_file:dir r_dir_perms;
- allow mm-qcamerad mpctl_socket:dir search;
- unix_socket_connect(mm-qcamerad, mpctl, perfd) 
+allow mm-qcamerad camera_data_file:dir r_dir_perms;
+allow mm-qcamerad mpctl_socket:dir search;
+unix_socket_connect(mm-qcamerad, mpctl, perfd)
+
+allow mm-qcamerad camera_db_file:file r_file_perms;
+
+allow mm-qcamerad system_data_file:dir rw_dir_perms;
+allow mm-qcamerad system_data_file:sock_file create_file_perms;
+
+r_dir_file(mm-qcamerad, fac_file)
+
+allow mm-qcamerad proc_driver_camera:file r_file_perms;
+allow mm-qcamerad proc_driver_laf:file r_file_perms;
