@@ -1,5 +1,3 @@
-/persist/.genmac                                u:object_r:wifi_data_file:s0
-
 /dev/mmc3416x                                   u:object_r:sensors_device:s0
 /system/bin/sensord                             u:object_r:sensord_exec:s0
 /system/bin/accelcal                            u:object_r:sensord_exec:s0
