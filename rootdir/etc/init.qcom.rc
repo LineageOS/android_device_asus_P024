@@ -153,6 +153,10 @@ on post-fs-data
 
     mkdir /data/diag_logs 0777 system system
 
+    #Create a folder for sensor service
+    mkdir /data/misc/sensor 0770 system system
+    restorecon_recursive /data/misc/sensor
+
 on early-boot
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
