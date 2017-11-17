@@ -6,6 +6,22 @@ etc/firmware/venus_8916.b03
 etc/firmware/venus_8916.b04
 etc/firmware/venus_8916.mbn
 etc/firmware/venus_8916.mdt
+etc/firmware/venus_8929.b00
+etc/firmware/venus_8929.b01
+etc/firmware/venus_8929.b02
+etc/firmware/venus_8929.b03
+etc/firmware/venus_8929.b04
+etc/firmware/venus_8929.mbn
+etc/firmware/venus_8929.mdt
+etc/firmware/wcnss_8929.b00
+etc/firmware/wcnss_8929.b01
+etc/firmware/wcnss_8929.b02
+etc/firmware/wcnss_8929.b04
+etc/firmware/wcnss_8929.b06
+etc/firmware/wcnss_8929.b09
+etc/firmware/wcnss_8929.b10
+etc/firmware/wcnss_8929.b11
+etc/firmware/wcnss_8929.mdt
 
 # ADSP
 bin/adsprpcd
@@ -394,6 +410,7 @@ vendor/lib/egl/libRBGLESv1_CM_adreno.so
 vendor/lib/egl/libRBGLESv2_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libc2d30-a3xx.so
+vendor/lib/libc2d30-a4xx.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libgsl.so
@@ -409,6 +426,8 @@ vendor/lib/libscale.so
 # Graphics firmware
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
+etc/firmware/a420_pfp.fw
+etc/firmware/a420_pm4.fw
 
 # Media
 lib/libOmxVdecHevc.so
